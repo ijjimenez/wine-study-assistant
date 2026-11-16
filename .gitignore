@@ -1,0 +1,10 @@
+# Secrets: never commit API keys
+.streamlit/secrets.toml
+
+# Interaction logs stay out of the public repository
+logs/
+
+# Python and system files
+__pycache__/
+*.pyc
+.DS_Store

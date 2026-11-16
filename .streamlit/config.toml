@@ -1,0 +1,6 @@
+# Streamlit settings for the wine study assistant.
+[server]
+# The file watcher scans every loaded module to reload the app on code changes. With transformers
+# installed it tries to import optional vision modules (torchvision) and floods the terminal with
+# errors, so it is turned off: after editing the code, rerun the app from the menu or restart it.
+fileWatcherType = "none"

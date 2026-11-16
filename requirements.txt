@@ -1,0 +1,11 @@
+# Dependencies of the deployed app. The CPU-only build of PyTorch avoids downloading GPU libraries
+# that the free hosting platform cannot use.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+sentence-transformers==6.1.0
+faiss-cpu==1.16.0
+numpy==2.5.4
+pandas==3.0.6
+PyYAML==6.0.3
+groq==1.7.0
+streamlit==1.67.0
