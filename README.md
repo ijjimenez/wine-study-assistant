@@ -54,7 +54,7 @@ The app opens at http://localhost:8501.
 
 ## Deploy to Streamlit Community Cloud
 
-**Live app:** https://wine-study-assistant.streamlit.app
+**Live app:** https://sommbot.streamlit.app
 
 The app runs on the free tier of Streamlit Community Cloud and calls the LLM through the Groq free tier,
 so the whole deployment costs nothing. To reproduce it:
